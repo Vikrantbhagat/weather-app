@@ -1,0 +1,110 @@
+/* src/assets/background.css */
+.app-background {
+  background-image: url("/assets/bg.jpg"); /* Put image in public/assets/ */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+/* src/assets/background.css */
+.app-background {
+  /* background-image: url("https://t4.ftcdn.net/jpg/14/84/53/93/360_F_1484539301_GsdaOncXLLf5un1JgJk4ZhebvNceavhq.jpg"); */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  background-color:black
+}
+
+.overlay {
+  /* background: rgba(236, 18, 18, 0.982);  */
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.app-background {
+  /* background-image: url("https://t4.ftcdn.net/jpg/14/84/53/93/360_F_1484539301_GsdaOncXLLf5un1JgJk4ZhebvNceavhq.jpg"); */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  /* background-color:whitesmoke; */
+  /* background-image: "https://t4.ftcdn.net/jpg/14/84/53/93/360_F_1484539301_GsdaOncXLLf5un1JgJk4ZhebvNceavhq.jpg"; */
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+
+
+/* src/assets/background.css */
+
+.weather-section-bg {
+  background: url("/src/assets/weather-section-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 40px 20px;
+  border-radius: 16px;
+}
+
+/* src/assets/background.css */
+
+.weather-section-bg {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1FSI46t3ed0CQMdrzWmCgmO11ROCF3zH-yg&s") center center no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 40px 20px;
+  margin-top: 2rem;
+  animation: fadeIn 1.5s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.weather-section-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.45); /* Optional dark overlay for readability */
+  z-index: -1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.weather-section-background {
+  background-image: url('https://media.istockphoto.com/id/514469656/photo/mountain-sunrise.jpg?s=612x612&w=0&k=20&c=Y-zfGZL2e5hDj_5vraYi7I4LFQfW_c2n_9vprKMQ_Ug='); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px;
+  /* border-radius: 20px; */
+}
+
+
+
+
+/* .bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+} */
+ 
+.bg-secondary {
+    /* --bs-bg-opacity: 1; */
+    background-color: #212529 !important;
+}

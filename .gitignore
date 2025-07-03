@@ -1,0 +1,9 @@
+# Ignore node modules (installed dependencies)
+node_modules/
+
+# Ignore environment variables (secrets)
+.env
+
+# Ignore build and coverage output
+dist/
+coverage/
